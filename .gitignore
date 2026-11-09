@@ -9,3 +9,8 @@
 # 3. Schritt: Wichtige Konfigurationsdateien explizit erlauben (falls nötig)
 !.gitignore
 !requirements.txt
+
+# 4. Schritt: Einen anderen Unterordner für bestimmte Dateien öffnen (z. B. Konfigs)
+!/ragpython/
+/ragpython/*
+!/ragpython/*.py

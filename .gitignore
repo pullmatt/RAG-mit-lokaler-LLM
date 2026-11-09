@@ -1,0 +1,11 @@
+# 1. Schritt: Pauschal erst einmal ALLES im Ordner ignorieren
+*
+
+# 2. Schritt: Bestimmte Dateiendungen ausdrücklich ERLAUBEN (mit Ausrufezeichen)
+!*.py
+!*.md
+!*.bat
+
+# 3. Schritt: Wichtige Konfigurationsdateien explizit erlauben (falls nötig)
+!.gitignore
+!requirements.txt
